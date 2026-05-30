@@ -6,10 +6,10 @@
 }:
 
 let
-  cfg = config.virtualisation.multipass;
+  cfg = config.virtualisation.multipass-ng;
 in
 {
-  options.virtualisation.multipass = {
+  options.virtualisation.multipass-ng = {
     enable = lib.mkEnableOption "Multipass, a simple manager for virtualised Ubuntu instances";
 
     logLevel = lib.mkOption {
