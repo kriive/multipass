@@ -25,13 +25,13 @@
 }:
 
 let
-  version = "1.16.2";
+  version = "1.16.3";
 
   multipassSrc = fetchFromGitHub {
     owner = "canonical";
     repo = "multipass";
     rev = "refs/tags/v${version}";
-    hash = "sha256-LfSdZAGIY40ReuZ6kZM/60PRkj/1DAhNlmTKeaj0OGs=";
+    hash = "sha256-i5dhFgjhRIiUkFxnmr+EhAV6YEUsKrxkERVdSZ3U8WI=";
   };
 
   grpcSrc = fetchFromGitHub {
